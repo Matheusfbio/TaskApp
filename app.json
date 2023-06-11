@@ -2,9 +2,27 @@
   "expo": {
     "name": "TaskApp",
     "slug": "TaskApp",
+    "scheme": "com.taskapp",
     "version": "1.0.0",
+    "orientation": "default",
+    "userInterfaceStyle": "automatic",
     "assetBundlePatterns": [
       "**/*"
+    ],
+    "runtimeVersion": "1.0.0",
+    "ios": {
+      "supportsTablet": true,
+      "runtimeVersion": "1.0.0"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#000000"
+      },
+      "runtimeVersion": "1.0.0"
+    },
+    "platforms": [
+      "android",
+      "ios"
     ],
     "extra": {
       "eas": {
