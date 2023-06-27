@@ -1,0 +1,18 @@
+Android Credentials     
+Project                 taskapp
+Application Identifier  com.taskapp
+
+Push Notifications (FCM)
+  None assigned yet
+
+Google Service Account Key For Submissions
+  None assigned yet
+
+Configuration: Build Credentials 2UYwtHXNjW (Default)
+Keystore
+Type                JKS
+Key Alias           bf34d3bbefc050596440ec24fd4535f4
+MD5 Fingerprint     37:EC:68:A1:E5:00:C1:3E:5C:2E:B0:5B:A6:B8:2E:76
+SHA1 Fingerprint    E7:22:8B:14:97:AC:AD:F6:90:AC:5D:C8:5C:8A:C8:F8:5B:70:B7:9E
+SHA256 Fingerprint  A7:55:2F:DD:A4:C3:EC:67:6B:82:59:F3:F3:BD:47:74:66:FC:05:B5:0B:0D:F1:3F:66:E1:DE:71:39:AB:B9:C8
+Updated             1 minute ago
