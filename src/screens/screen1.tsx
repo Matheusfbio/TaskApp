@@ -1,6 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { Button, Text, View } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
+import React from 'react';
 
 export function Screen1() {
   const navigation = useNavigation();
