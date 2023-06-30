@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import { AntDesign } from '@expo/vector-icons';
-import { SafeAreaView, Text, TouchableOpacity } from 'react-native';
 import * as Google from 'expo-auth-session/providers/google';
 import * as WebBrowser from 'expo-web-browser';
 import {
@@ -11,6 +9,8 @@ import {
 
 import { auth } from '../../../firebaseConfig';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import SingIn from '../../Components/sing-in';
+import { Screen1 } from '../screen1';
 
 WebBrowser.maybeCompleteAuthSession();
 
@@ -28,15 +28,19 @@ export default function Login() {
       signInWithCredential(auth, credential);
     }
   }, [response]);
-  return (
-    <SafeAreaView>
-      <TouchableOpacity
-        className="flex-row space-x-1 items-center justify-center p-10 w-auto rounded-sm bg-blue-600 direct"
-        onPress={() => promptAsync(promptAsync)}
-      >
-        <AntDesign name="google" size={26} color="black" />
-        <Text className="text-lg">Sing in with google</Text>
-      </TouchableOpacity>
-    </SafeAreaView>
-  );
+
+  useEffect(() => {
+    const unsub = onAuthStateChanged(auth, async (user) => {
+      if (user) {
+        console.log(JSON.stringify(user, null, 2));
+        setUserInfo(user);
+      } else {
+        console.log('Await google sing in');
+      }
+    });
+
+    return () => unsub();
+  }, []);
+
+  return userInfo ? <Screen1 /> : <SingIn promptAsync={promptAsync} />;
 }
