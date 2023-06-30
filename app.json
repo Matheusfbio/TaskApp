@@ -1,14 +1,29 @@
 {
   "expo": {
-    "name": "TaskApp",
-    "slug": "TaskApp",
+    "name": "taskapp",
+    "slug": "taskapp",
+    "scheme": "taskapp",
     "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
     "assetBundlePatterns": [
       "**/*"
     ],
+    "runtimeVersion": "1.0.0",
+    "android": {
+      "package": "com.taskapp",
+      "adaptiveIcon": {
+        "backgroundColor": "#000000"
+      },
+      "runtimeVersion": "1.0.0"
+    },
+    "platforms": [
+      "android",
+      "ios"
+    ],
     "extra": {
       "eas": {
-        "projectId": "56988582-9c5c-4129-9b38-2775e0ec012d"
+        "projectId": "5f5676f3-1019-43ad-ab6a-f48e06746bf1"
       }
     }
   }
