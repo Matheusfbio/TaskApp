@@ -1,0 +1,21 @@
+[expo-cli] Error: JavaScript engine configuration is inconsistent between app.json and Android native project.
+[expo-cli] In app.json: Hermes is enabled
+[expo-cli] In Android native project: Hermes is not enabled
+[expo-cli] Please check the following files for inconsistencies:
+[expo-cli]   - C:\Users\Matthew_Dev\Documents\TaskApp\app.json
+[expo-cli]   - C:\Users\Matthew_Dev\Documents\TaskApp\android\gradle.properties
+[expo-cli]   - C:\Users\Matthew_Dev\Documents\TaskApp\android\app\build.gradle
+[expo-cli] Learn more: https://expo.fyi/hermes-android-config
+[expo-cli] Error: JavaScript engine configuration is inconsistent between app.json and Android native project.
+[expo-cli] In app.json: Hermes is enabled
+[expo-cli] In Android native project: Hermes is not enabled
+[expo-cli] Please check the following files for inconsistencies:
+[expo-cli]   - C:\Users\Matthew_Dev\Documents\TaskApp\app.json
+[expo-cli]   - C:\Users\Matthew_Dev\Documents\TaskApp\android\gradle.properties
+[expo-cli]   - C:\Users\Matthew_Dev\Documents\TaskApp\android\app\build.gradle
+[expo-cli] Learn more: https://expo.fyi/hermes-android-config
+[expo-cli]     at Object.maybeThrowFromInconsistentEngineAsync (C:\Users\Matthew_Dev\Documents\TaskApp\node_modules\@expo\dev-server\build\HermesBundler.js:146:11)
+[expo-cli]     at async assertEngineMismatchAsync (C:\Users\Matthew_Dev\Documents\TaskApp\node_modules\@expo\cli\build\src\export\fork-bundleAsync.js:40:5)
+[expo-cli]     at async Promise.all (index 1)
+[expo-cli]     at async Object.bundleAsync (C:\Users\Matthew_Dev\Documents\TaskApp\node_modules\@expo\cli\build\src\export\fork-bundleAsync.js:45:5)
+[expo-cli]     at

@@ -113,7 +113,7 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.taskapp"
+    namespace 'com.taskapp'
     defaultConfig {
         applicationId 'com.taskapp'
         minSdkVersion rootProject.ext.minSdkVersion

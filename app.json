@@ -6,11 +6,13 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "automatic",
+    "jsEngine": "hermes",
     "assetBundlePatterns": [
       "**/*"
     ],
     "runtimeVersion": "1.0.0",
     "android": {
+      "jsEngine": "hermes",
       "package": "com.taskapp",
       "adaptiveIcon": {
         "backgroundColor": "#000000"
@@ -18,13 +20,16 @@
       "runtimeVersion": "1.0.0"
     },
     "platforms": [
-      "android",
-      "ios"
+      "android"
     ],
     "extra": {
       "eas": {
         "projectId": "5f5676f3-1019-43ad-ab6a-f48e06746bf1"
       }
-    }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/5f5676f3-1019-43ad-ab6a-f48e06746bf1"
+    },
+    "ios": {}
   }
 }
