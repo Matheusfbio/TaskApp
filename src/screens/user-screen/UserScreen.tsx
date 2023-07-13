@@ -1,8 +1,10 @@
-import { Text, View } from 'react-native';
+import { SafeAreaView, Text } from 'react-native';
 import React from 'react';
 
 export default function UserScreen() {
-  <View>
-    <Text>Sem Usuario</Text>
-  </View>;
+  return (
+    <SafeAreaView className="flex-1 items-center justify-center">
+      <Text className="text-3xl">Welcome</Text>
+    </SafeAreaView>
+  );
 }

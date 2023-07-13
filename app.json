@@ -14,11 +14,15 @@
     "android": {
       "jsEngine": "hermes",
       "package": "com.taskapp",
+      // "googleServicesFile": "./google-services.json",
       "adaptiveIcon": {
         "backgroundColor": "#000000"
       },
       "runtimeVersion": "1.0.0"
     },
+    "plugins": [
+      "@react-native-google-signin/google-signin"
+    ],
     "platforms": [
       "android"
     ],

@@ -14,3 +14,5 @@ const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
 
 //android: 138751756651-7suo2561l2fcq4be0q5ge700rs9fnn0e.apps.googleusercontent.com
+
+export default firebaseConfig;

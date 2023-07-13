@@ -1,14 +1,12 @@
 import { NavigationContainer } from '@react-navigation/native';
 
-// import { LoginRoutes } from './user.routes';
-import { BarRoutes } from './tab.user.routes';
-import { MainScreen } from '../screens/main-screen/MainScreen';
+import React from 'react';
+import DrawerRoutes from './drawer.routes';
 
 export function Routes() {
   return (
     <NavigationContainer>
-      <MainScreen />
-      {/* <BarRoutes /> */}
+      <DrawerRoutes />
     </NavigationContainer>
   );
 }

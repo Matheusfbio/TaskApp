@@ -1,12 +1,11 @@
-import React, { useState, useEffect } from 'react';
-import { View, Text } from 'react-native';
-import Login from '../login-screen/Login';
-
+import React from 'react';
+import { View, Text, SafeAreaView } from 'react-native';
+import { BarRoutes } from '../../routes/tab.user.routes';
 
 export default function MainScreen() {
   return (
-    <View>
-      <Text>Welcome {user.email}</Text>
-    </View>
+    <SafeAreaView className="flex-1 items-center justify-center">
+      <Text className="text-3xl">Welcome</Text>
+    </SafeAreaView>
   );
-
+}

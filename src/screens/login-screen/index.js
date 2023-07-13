@@ -1,4 +1,4 @@
-import login-screen from './login-screen';
+import LoginScreen from './Login';
 
 export { login-screen };
 export default login-screen;
