@@ -14,6 +14,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "138751756651-7suo2561l2fcq4be0q5ge700rs9fnn0e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.taskapp",
+            "certificate_hash": "e7228b1497acadf690ac5dc85c8ac8f85b70b79e"
+          }
+        },
+        {
           "client_id": "138751756651-o0ssqn9mb30ho3ojfvp226pfanabv1q6.apps.googleusercontent.com",
           "client_type": 3
         }

@@ -1,6 +1,5 @@
 import React from 'react';
-import { View, Text, SafeAreaView } from 'react-native';
-import { BarRoutes } from '../../routes/tab.user.routes';
+import { Text, SafeAreaView } from 'react-native';
 
 export default function MainScreen() {
   return (

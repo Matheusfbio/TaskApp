@@ -14,7 +14,7 @@
     "android": {
       "jsEngine": "hermes",
       "package": "com.taskapp",
-      // "googleServicesFile": "./google-services.json",
+      "googleServicesFile": "./android/app/google-services.json",
       "adaptiveIcon": {
         "backgroundColor": "#000000"
       },
